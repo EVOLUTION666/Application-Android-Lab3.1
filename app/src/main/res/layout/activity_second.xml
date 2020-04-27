@@ -1,0 +1,19 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".SecondActivity">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:autoLink="all"
+        android:isScrollContainer="true"
+        android:textStyle="italic"
+        android:drawablePadding="5px"
+        android:linksClickable="true"
+        android:fadingEdgeLength="25px"
+        android:fadingEdge="vertical"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="outsideOverlay"
+        android:bufferType="spannable"
+        tools:ignore="MissingConstraints">
+    </TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
